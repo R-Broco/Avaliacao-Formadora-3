@@ -3,7 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Interação Topico 2</title>
-    <script src="js/JavaScript.js"></script>
 </head>
 <body></body>
+<script>
+    //Tópico 2: Interação com Objetos
+const carro = {
+    marca: "Mitsubishi",
+    modelo: "Lancer Evolution 2.0",
+    ano: 1995,
+    detalhes: function() {
+        console.log("Informações do carro:")
+        console.log(`Marca: ${this.marca}`);
+        console.log(`Modelo: ${this.modelo}`);
+        console.log(`Ano: ${this.ano}`);
+    }
+};
+
+carro.detalhes();
+</script>
 </html>

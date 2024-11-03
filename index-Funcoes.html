@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Funções Topico 3</title>
-    <script src="js/JavaScript.js"></script>
 </head>
 <body>
     <input type="number" id="num1" placeholder="Digite o um número">
@@ -12,6 +11,16 @@
 
     <input type="button" value="Calcular a Média" onclick="calcularMedia()">
 
-    <p id="resultado"></p>
 </body>
+<script>
+    //Tópico 3: Funções
+function calcularMedia() {
+    var n1 = parseInt(document.getElementById("num1").value);
+    var n2 = parseInt(document.getElementById("num2").value);
+    var n3 = parseInt(document.getElementById("num3").value);
+    var media = media = (n1 + n2 + n3) / 3
+
+    alert(`A média é: ${media}`);
+}
+</script>
 </html>
