@@ -23,6 +23,6 @@ function calcularMedia() {
     var n3 = parseInt(document.getElementById("num3").value);
     var media = media = n1 + n2 + n3 / 3
 
-    document.getElementById('resultado').textContent = `A média é: ${media}`; 
+    alert(`A média é: ${media}`);
 }
 
