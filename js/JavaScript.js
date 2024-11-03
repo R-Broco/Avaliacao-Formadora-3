@@ -21,7 +21,7 @@ function calcularMedia() {
     var n1 = parseInt(document.getElementById("num1").value);
     var n2 = parseInt(document.getElementById("num2").value);
     var n3 = parseInt(document.getElementById("num3").value);
-    var media = media = n1 + n2 + n3 / 3
+    var media = media = (n1 + n2 + n3) / 3
 
     alert(`A média é: ${media}`);
 }
