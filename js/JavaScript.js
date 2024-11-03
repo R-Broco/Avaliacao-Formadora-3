@@ -10,7 +10,10 @@ const carro = {
     modelo: "Lancer Evolution 2.0",
     ano: 1995,
     detalhes: function() {
-        console.log(`Carro: ${this.marca} ${this.modelo}, Ano: ${this.ano}`);
+        console.log("Informações do carro:")
+        console.log(`Marca: ${this.marca}`);
+        console.log(`Modelo: ${this.modelo}`);
+        console.log(`Ano: ${this.ano}`);
     }
 };
 
